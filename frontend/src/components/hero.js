@@ -2,13 +2,19 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
-  const navigate = useNavigate();
 
+  const navigate = useNavigate(); // Use useNavigate instead of useHistory
+
+  const handleButtonClick = () => {
+    navigate('/formClosed'); // Navigates to the Our Team page
+  };
+
+  
   return (
     <>
       {/* Jumbotron */}
       <div
-        id='Home'
+        id="Home"
         className="relative overflow-hidden bg-cover bg-no-repeat p-6 sm:p-8 md:p-12 text-center scroll-margin"
         style={{
           backgroundImage: 'url("img/hero-bg-01.webp")',
@@ -20,7 +26,7 @@ const Hero = () => {
       >
         <div
           className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-fixed"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}
+          style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}
         >
           <div className="flex h-full items-center justify-center">
             <div className="text-white max-w-4xl mx-auto px-4">
@@ -31,11 +37,11 @@ const Hero = () => {
                 We are 'The Team'
               </h4>
               <button
-                onClick={() => {
-                  navigate('/form');
-                }}
+                onClick={handleButtonClick}
                 type="button"
                 className="rounded-full border-2 border-neutral-50 px-8 py-2.5 md:px-9 md:py-3 text-sm sm:text-base font-medium uppercase leading-normal text-neutral-50 transition duration-300 ease-in-out hover:border-[#ff5e5e] hover:bg-[#ff5e5e] hover:text-white focus:border-[#ff5e5e] focus:bg-[#ff5e5e] focus:text-white active:border-[#ff4d4d] active:bg-[#ff4d4d] active:text-white focus:outline-none focus:ring-0"
+                data-twe-ripple-init=""
+                data-twe-ripple-color="light"
               >
                 Apply to Student Council/Clubs
               </button>

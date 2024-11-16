@@ -5,13 +5,12 @@ import { useNavigate } from 'react-router-dom';
 
 const AboutUs = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS with animation duration
+    AOS.init({ duration: 1000 }); 
   }, []);
 
-  const navigate = useNavigate(); // Use useNavigate instead of useHistory
-
+  const navigate = useNavigate(); 
   const handleButtonClick = () => {
-    navigate('/team'); // Navigates to the Our Team page
+    navigate('/team'); 
   };
 
   return (

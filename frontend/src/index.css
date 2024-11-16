@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add this to your global CSS or Tailwind base styles (if using tailwind.config.js) */
+@layer base {
+  html, body {
+    @apply w-full min-h-screen overflow-x-hidden;
+  }
+}

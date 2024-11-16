@@ -1,0 +1,107 @@
+{
+  "Technical": [
+    {
+      "name": "Vidit Tamboli",
+      "role": "Head, Technical Vertical",
+      "image": "/img/headsdept/tech_head.jpg"
+    },
+    {
+      "name": "Archit Jain",
+      "role": "Deputy Head, Technical Vertical",
+      "image": "/img/headsdept/tech_dy1.jpg"
+    }
+  ],
+  "Graphics": [
+    {
+      "name": "Shubham Saharan",
+      "role": "Head, Graphics Vertical",
+      "image": "/img/headsdept/graphics_head2.jpg"
+    },
+    {
+      "name": "Dhruv Sharma",
+      "role": "Head, Graphics Vertical",
+      "image": "/img/headsdept/graphics_head1.jpg"
+    },
+    {
+      "name": "Ragini Joshi",
+      "role": "Deputy Head, Graphics Vertical",
+      "image": "/img/headsdept/graphics_dy1.jpg"
+    }
+  ],
+  "Cultural": [
+    {
+      "name": "Suyash Chaklan",
+      "role": "Head, Cultural Vertical",
+      "image": "/img/headsdept/cultural_head1.jpg"
+    },
+    {
+      "name": "Dev Saxena",
+      "role": "Head, Cultural Vertical",
+      "image": "/img/headsdept/cultural_head2.jpg"
+    },
+    {
+      "name": "Armaan Sinwar",
+      "role": "Head, Cultural Vertical",
+      "image": "/img/headsdept/cultural_head3.jpg"
+    },
+    {
+      "name": "Khushal Nirwan",
+      "role": "Deputy Head, Cultural Vertical",
+      "image": "/img/headsdept/cultural_dy1.jpg"
+    }
+  ],
+  "Operations": [
+    {
+      "name": "Mukul Sharma",
+      "role": "Head, Operations Vertical",
+      "image": "/img/headsdept/oper_head.jpg"
+    },
+    {
+      "name": "Nikhil Kumar",
+      "role": "Head, Operations Vertical",
+      "image": "/img/headsdept/oper_head2.jpg"
+    },
+    {
+      "name": "Yuvraj Singh Rathore",
+      "role": "Deputy Head, Operations Vertical",
+      "image": "/img/headsdept/oper_dy.jpg"
+    },
+    {
+      "name": "Jaivardhan Singh Shekhawat",
+      "role": "Deputy Head, Operations Vertical",
+      "image": "/img/headsdept/oper_dy2.jpg"
+    },
+    {
+      "name": "Kartik Dey",
+      "role": "Deputy Head, Operations Vertical",
+      "image": "/img/headsdept/oper_dy3.jpg"
+    }
+  ],
+  "Media": [
+    {
+      "name": "Nehal Jain",
+      "role": "Head, Media Vertical",
+      "image": "/img/headsdept/media_head1.jpg"
+    },
+    {
+      "name": "Raghav Ojha",
+      "role": "Head, Media Vertical",
+      "image": "/img/headsdept/media_head2.jpg"
+    },
+    {
+      "name": "Yojna Dadani",
+      "role": "Head, Media Vertical",
+      "image": "/img/headsdept/media_head3.jpg"
+    },
+    {
+      "name": "Ananya Sharma",
+      "role": "Deputy Head, Media Vertical",
+      "image": "/img/headsdept/media_dy1.jpg"
+    },
+    {
+      "name": "Gyanchand Ramchandani",
+      "role": "Deputy Head, Media Vertical",
+      "image": "/img/headsdept/media_dy2.jpg"
+    }
+  ]
+}
