@@ -42,13 +42,14 @@ html {
 }
 
 .scroll-margin {
-  scroll-margin-top: 65px; /* Adjust according to the navbar height */
+  scroll-margin-top: 70px; /* Adjust according to the navbar height */
 }
 
 /* styles.css */
 .bg-accent-color {
   background-color: rgb(228, 60, 92); /* Replace with your color */
 }
+
 
 
 

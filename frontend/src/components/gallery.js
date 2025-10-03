@@ -23,10 +23,10 @@ const events = {
     { id: 2, src: "img/freshers/freshers2.webp", alt: "Freshers Event 2" },
     { id: 3, src: "img/freshers/freshers3.webp", alt: "Freshers Event 3" },
   ],
-  Navrang: [
-    { id: 1, src: "img/navrang/navrang1.webp", alt: "Navrang Event 1" },
-    { id: 2, src: "img/navrang/navrang2.webp", alt: "Navrang Event 2" },
-    { id: 3, src: "img/navrang/navrang3.webp", alt: "Navrang Event 3" },
+  Navras: [
+    { id: 1, src: "img/navrang/navrang1.webp", alt: "Navras Event 1" },
+    { id: 2, src: "img/navrang/navrang2.webp", alt: "Navras Event 2" },
+    { id: 3, src: "img/navrang/navrang3.webp", alt: "Navras Event 3" },
   ],
 };
 
@@ -55,11 +55,11 @@ const Gallery = () => {
       </div>
 
       {/* Category Buttons */}
-      <div className="flex justify-center  flex-wrap space-x-4 mb-8">
+      <div className="flex justify-center space-x-4 mb-8">
         {Object.keys(events).map((cat) => (
           <button
             key={cat}
-            className={` m-1.5 px-3 py-2 rounded-full font-semibold transition-colors duration-300 ${
+            className={`px-4 py-2 rounded-full font-semibold transition-colors duration-300 ${
               category === cat
                 ? "bg-red-500 text-white"
                 : "bg-gray-200 text-gray-800 hover:bg-gray-300"

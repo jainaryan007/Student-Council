@@ -47,12 +47,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#About" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
+                <a href="#about" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
                   About us
                 </a>
               </li>
               <li>
-                <a href="#clubs" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
+                <a href="#services" className="text-gray-400 hover:text-yellow-500 transition-colors duration-300">
                   Clubs
                 </a>
               </li>
@@ -66,10 +66,10 @@ const Footer = () => {
             <p className="text-gray-400">1st Floor, E-Block, JECRC</p>
             <p className="text-gray-400">Jaipur</p>
             <p className="mt-4">
-              <strong>Phone:</strong> <span className="text-yellow-400"><a href="tel:+91-9667788552">+91-9667788552</a></span>
+              <strong>Phone:</strong> <span className="text-yellow-400">+1 5589 55488 55</span>
             </p>
             <p>
-              <strong>Email:</strong> <span className="text-yellow-400"><a href="mailto:studentcouncil@jecrc.ac.in">studentcouncil@jecrc.ac.in</a></span>
+              <strong>Email:</strong> <span className="text-yellow-400">sdo@jecrc.ac.in</span>
             </p>
           </div>
         </div>
@@ -81,19 +81,6 @@ const Footer = () => {
           <p>
             © <span>Copyright</span>{" "}
             <strong className="px-1 text-yellow-400">JECRC Student Council</strong> <span>All Rights Reserved</span>
-          </p>
-          {/* Added Developed by and Graphics Designed by */}
-          <p className="mt-4 text-gray-400">
-            Developed by{" "}
-            <a href="https://www.linkedin.com/in/aryan-jain-65a892256/" className="text-yellow-400 hover:text-yellow-500 transition-colors">Aryan Jain</a>{" | "}
-            <a href="https://www.linkedin.com/in/apeksh-gupta/" className="text-yellow-400 hover:text-yellow-500 transition-colors">Apeksh Gupta</a>{" | "}
-            <a href="https://www.linkedin.com/in/akshat-bindal-8677a2256/" className="text-yellow-400 hover:text-yellow-500 transition-colors">Akshat Bindal</a>{" | "}
-            <a href="https://www.linkedin.com/in/karthikdayama/" className="text-yellow-400 hover:text-yellow-500 transition-colors">Karthik Dayama</a>
-          </p>
-          <p className="mt-2 text-gray-400">
-            Designed by{" "}
-            
-            <a href="https://www.linkedin.com/in/suyash-chaklan/" className="text-yellow-400 hover:text-yellow-500 transition-colors">Suyash Chaklan</a>
           </p>
         </div>
       </div>

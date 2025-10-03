@@ -10,7 +10,7 @@ const mentors = [
   {
     name: "Mr. Dheemant Agarwal",
     title: "Director - Digital Strategy, JECRC University",
-    image: "img/team/Dheemantsir.webp",
+    image: "img/team/dheemantsir.webp",
   },
   {
     name: "Mr. Pranshu Sharma",
@@ -20,7 +20,7 @@ const mentors = [
   {
     name: "Ms. Mohak Khanduja",
     title: "Designing Head & Student Development Officer, JECRC",
-    image: "img/team/mohakmaam.webp",
+    image: "img/team/mohakmam.webp",
   },
 ];
 
@@ -37,7 +37,7 @@ const Mentors = () => {
           <span className="text-red-500">Meet</span> our Mentors
         </h2>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-10 py-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-10 px-20 py-4">
         {mentors.map((mentor, index) => (
           <div
             className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300"
@@ -47,7 +47,7 @@ const Mentors = () => {
             <img
               src={mentor.image}
               alt={mentor.name}
-              className="w-full h-72 object-cover border-b-4 border-pink-500"
+              className="w-full h-64 object-cover border-b-4 border-pink-500"
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-2">{mentor.name}</h3>
